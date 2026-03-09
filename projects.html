@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — NESAC CSC Hub</title>
+  <meta name="description" content="Explore hands-on engineering projects at every level — from beginner builds to advanced systems — designed to bridge the gap between academic knowledge and real-world application.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar" role="navigation">
+  <a href="index.html" class="nav-logo"><span class="logo-mark">NESAC</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li>
+    <li><a href="resources.html">Resources</a></li><li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li><li><a href="community.html">Community</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <ul class="nav-overlay__links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li>
+    <li><a href="resources.html">Resources</a></li><li><a href="projects.html">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li><li><a href="community.html">Community</a></li>
+  </ul>
+  <div class="nav-overlay__meta"><a href="community.html">Join the Community</a><a href="contact.html">Contact Us</a></div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- ===========================================================
+       📸 IMAGE SLOT — HERO BACKGROUND (Projects page)
+       Recommended: 1600 × 900 px, landscape
+       Example:  src="assets/images/hero-projects.jpg"
+       =========================================================== -->
+  <div class="hero__image">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&fit=crop" alt="Close-up of a circuit board representing hands-on engineering projects" loading="eager">
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <span class="type-label">Hands-On Engineering Projects</span>
+    <h1 class="type-display">Create.<br>Experiment.<br>Build.</h1>
+    <p class="hero__tagline">Theory without practice is incomplete. At the heart of our platform is a strong belief that the best learning happens when you build real things. Our project library is designed to bridge the gap between academic knowledge and practical application, giving students the opportunity to create, experiment, fail, iterate, and ultimately succeed.</p>
+  </div>
+  <div class="hero__scroll-indicator" aria-hidden="true">Scroll</div>
+</section>
+
+<!-- INTRO -->
+<section class="section-intro section-intro--white">
+  <div class="container--sm">
+    <div class="section-intro__eyebrow"><span class="type-label">Why Projects Matter</span></div>
+    <p class="type-display-italic" data-reveal>Theory without practice is incomplete.</p>
+    <div class="section-intro__body-grid" data-reveal data-delay="2">
+      <p class="type-body-lg">Employers and academic institutions increasingly value demonstrated skills over credentials alone. Building a portfolio of completed projects shows that you can apply what you know to real situations, and develops skills that are difficult to teach in a traditional classroom — like debugging under pressure, managing complexity, and adapting when things go wrong.</p>
+      <p class="type-body">Beyond career benefits, projects are one of the most satisfying ways to learn. There is a unique sense of accomplishment in seeing a circuit come to life, watching your code produce a meaningful output, or deploying a system that solves a real problem. That experience is what keeps engineers curious and motivated throughout their careers.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BEGINNER PROJECTS -->
+<div class="section-grid-header container" data-reveal>
+  <h2 class="type-h1">Beginner Projects</h2>
+  <span class="type-label">Level 01</span>
+</div>
+<div class="card-grid card-grid--3" data-reveal>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80&fit=crop" alt="Code editor open showing a simple calculator program" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Beginner · Programming</p>
+      <h3 class="type-h3">Simple Calculator</h3>
+      <p class="type-body">Build a fully functional calculator application that handles addition, subtraction, multiplication, and division. This project introduces you to user input handling, conditional logic, and function design. It can be implemented as a command-line program or a graphical user interface, depending on your current skill level. As an extension, you can add support for more complex operations such as square roots, exponentiation, and memory functions.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80&fit=crop" alt="Circuit simulation software showing a basic LED and resistor circuit" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Beginner · Electronics</p>
+      <h3 class="type-h3">Basic Circuit Simulation</h3>
+      <p class="type-body">Use circuit simulation software such as LTspice or Tinkercad to design and test simple electronic circuits. Start with a basic LED circuit, then progress to circuits involving resistors, capacitors, and transistors. This project builds your intuition for electronic behavior and teaches you how to use industry-standard simulation tools before working with physical components.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&q=80&fit=crop" alt="Terminal window showing a number guessing game running in Python" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Beginner · Logic</p>
+      <h3 class="type-h3">Number Guessing Game</h3>
+      <p class="type-body">Create an interactive game where the computer generates a random number and the user attempts to guess it within a limited number of tries. This project reinforces loops, conditionals, random number generation, and user feedback mechanisms — all fundamental programming concepts.</p>
+    </div>
+  </div>
+</div>
+
+<!-- INTERMEDIATE PROJECTS -->
+<div class="section-grid-header container" data-reveal>
+  <h2 class="type-h1">Intermediate Projects</h2>
+  <span class="type-label">Level 02</span>
+</div>
+<div class="card-grid card-grid--3" data-reveal>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80&fit=crop" alt="Microcontroller connected to temperature and humidity sensors for an IoT system" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Intermediate · Embedded &amp; Networking</p>
+      <h3 class="type-h3">IoT Monitoring System</h3>
+      <p class="type-body">Design and build an Internet of Things (IoT) system that monitors environmental data such as temperature, humidity, and light levels using sensors connected to a microcontroller. The data is transmitted over Wi-Fi to a cloud dashboard where it can be visualized in real time. This project integrates embedded programming, networking, data visualization, and cloud services into one cohesive system — making it an excellent showcase of cross-disciplinary engineering skills</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80&fit=crop" alt="Laptop showing a responsive personal portfolio website under development" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Intermediate · Web Development</p>
+      <h3 class="type-h3">Personal Portfolio Website</h3>
+      <p class="type-body">Build a fully responsive personal portfolio website to showcase your projects, skills, and contact information. This project teaches HTML, CSS, and JavaScript fundamentals along with responsive design, accessibility, and web hosting. Deploy it on GitHub Pages so it is accessible to anyone on the internet.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__image"><img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80&fit=crop" alt="Terminal showing a file encryption tool built with AES cryptography" loading="lazy"></div>
+    <div class="card__body">
+      <p class="type-label">Intermediate · Security</p>
+      <h3 class="type-h3">File Encryption Tool</h3>
+      <p class="type-body">Develop a command-line tool that encrypts and decrypts files using a symmetric encryption algorithm such as AES. This project introduces cryptography fundamentals, file I/O operations, and the importance of secure software design — giving you an understanding of how digital security works under the hood.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ADVANCED PROJECTS — split layout -->
+<div class="section-grid-header container" data-reveal>
+  <h2 class="type-h1">Advanced Projects</h2>
+  <span class="type-label">Level 03 · PFE / Mémoire</span>
+</div>
+
+<div class="split" data-reveal>
+  <div class="split__image"><img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80&fit=crop" alt="Neural network visualisation representing an AI-based machine learning project" loading="lazy"></div>
+  <div class="split__text">
+    <p class="type-label">Advanced · Artificial Intelligence</p>
+    <h2 class="type-h2">AI-Based System</h2>
+    <p class="type-body-lg">Design and train a machine learning model to solve a meaningful problem of your choosing — from an image classifier that identifies plant diseases to a recommendation engine for study materials or an NLP system that summarizes technical documents.</p>
+    <p class="type-body">You will work through the entire machine learning pipeline: data collection, preprocessing, model selection, training, evaluation, and deployment. Built with Python and libraries such as TensorFlow and scikit-learn.</p>
+  </div>
+</div>
+
+<div class="split split--reverse" data-reveal>
+  <div class="split__image"><img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=900&q=80&fit=crop" alt="Microcontroller and actuators wired for an embedded automation system" loading="lazy"></div>
+  <div class="split__text">
+    <p class="type-label">Advanced · Embedded Systems</p>
+    <h2 class="type-h2">Embedded Automation System</h2>
+    <p class="type-body-lg">Build an embedded automation system that uses a microcontroller to monitor inputs from multiple sensors and automatically control actuators based on predefined logic.</p>
+    <p class="type-body">Applications include a smart irrigation controller, an automated greenhouse system, or a motor control unit. This project demands deep understanding of real-time programming, hardware interfacing, power management, and fault tolerance.</p>
+  </div>
+</div>
+
+<div class="split" data-reveal>
+  <div class="split__image"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&q=80&fit=crop" alt="Terminal screen showing a custom operating system shell executing commands" loading="lazy"></div>
+  <div class="split__text">
+    <p class="type-label">Advanced · Operating Systems</p>
+    <h2 class="type-h2">Custom Operating System Shell</h2>
+    <p class="type-body-lg">Implement a basic command-line shell that can interpret and execute user commands, manage processes, and handle input and output redirection.</p>
+    <p class="type-body">This project gives you a profound understanding of how operating systems work — including process creation, system calls, memory management, and inter-process communication. It is one of the most intellectually rewarding projects you can undertake as a computer engineering student.</p>
+    <div class="btn-row mt-md"><a href="community.html" class="btn btn--arrow">Share Your Project</a></div>
+  </div>
+</div>
+
+<div class="pull-quote" data-reveal>
+  <blockquote>"There is a unique sense of accomplishment in seeing a circuit come to life, watching your code produce a meaningful output, or deploying a system that solves a real problem."</blockquote>
+  <cite>NESAC CSC Hub — Projects Philosophy</cite>
+</div>
+
+<footer>
+  <div class="footer__top">
+    <div class="footer__brand"><div class="footer-logo-mark">NESAC</div>
+    <p>A rich collection of hands-on engineering projects designed to bridge the gap between academic knowledge and real-world application at every skill level.</p></div>
+    <div class="footer__col">
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Community</h4>
+      <ul>
+        <li><a href="community.html">Forums</a></li>
+        <li><a href="community.html">Q&amp;A</a></li>
+        <li><a href="community.html">Study Groups</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Schools</h4>
+      <ul>
+        <li><a href="#">ENSPY / NASEY</a></li>
+        <li><a href="#">FET · COT</a></li>
+        <li><a href="#">ENSPD · IUT</a></li>
+        <li><a href="#">NAHPI &amp; Others</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2025 NESAC CSC Hub — All rights reserved.</p>
+    <p><a href="contact.html">Contact Us</a></p>
+  </div>
+  <div class="footer__credit">
+    Platform designed and built by <strong>NESAC — National Engineering Students Association of Cameroon</strong>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

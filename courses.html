@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses — NESAC CSC Hub</title>
+  <meta name="description" content="Comprehensive course catalog carefully designed to guide students through the vast and exciting world of computer engineering.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar" role="navigation">
+  <a href="index.html" class="nav-logo"><span class="logo-mark">NESAC</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="courses.html" class="active">Courses</a></li><li><a href="resources.html">Resources</a></li>
+    <li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li><li><a href="community.html">Community</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <ul class="nav-overlay__links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li>
+    <li><a href="resources.html">Resources</a></li><li><a href="projects.html">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li><li><a href="community.html">Community</a></li>
+  </ul>
+  <div class="nav-overlay__meta"><a href="community.html">Join the Community</a><a href="contact.html">Contact Us</a></div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- ===========================================================
+       📸 IMAGE SLOT — HERO BACKGROUND (Courses page)
+       Recommended: 1600 × 900 px, landscape
+       Example:  src="assets/images/hero-courses.jpg"
+       =========================================================== -->
+  <div class="hero__image">
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1600&q=80&fit=crop" alt="Student writing clean code on a laptop" loading="eager">
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <span class="type-label">Structured Learning Paths</span>
+    <h1 class="type-display">Structured<br>Learning<br>Paths.</h1>
+    <p class="hero__tagline">Welcome to our comprehensive course catalog, carefully designed to guide students through the vast and exciting world of computer engineering.</p>
+  </div>
+  <div class="hero__scroll-indicator" aria-hidden="true">Scroll</div>
+</section>
+
+<!-- INTRO -->
+<section class="section-intro section-intro--white">
+  <div class="container--sm">
+    <div class="section-intro__eyebrow"><span class="type-label">Why Choose Our Learning Paths?</span></div>
+    <p class="type-display-italic" data-reveal>We believe that mastery comes from consistency, clarity, and hands-on practice.</p>
+    <div class="section-intro__body-grid" data-reveal data-delay="2">
+      <p class="type-body-lg">Our courses are organized to help students build strong foundations in both software and hardware aspects of computer engineering. Each path is sequenced thoughtfully — starting from core concepts and gradually advancing toward specialized, real-world applications. We believe that mastery comes from consistency, clarity, and hands-on practice, and every course reflects that philosophy.</p>
+      <p class="type-body">Unlike scattered online tutorials, our learning paths offer a cohesive, structured experience. You will know exactly where you are, what you have accomplished, and what comes next. Each course builds upon the previous one, ensuring that no gaps are left in your understanding. Our content is curated by experienced educators and industry professionals who understand what it takes to succeed in computer engineering today.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COURSE GRID — 2 columns (wide cards) -->
+<div class="section-grid-header container" data-reveal>
+  <h2 class="type-h1">Course Topics</h2>
+  <a href="projects.html" class="section-grid-header__link">Apply in projects →</a>
+</div>
+
+<div class="card-grid card-grid--2" data-reveal>
+
+  <!-- COURSE CARD 1 — Programming Fundamentals -->
+  <div class="card">
+    <!-- ===========================================================
+         📸 IMAGE SLOT — COURSE CARD 1
+         Recommended: 800 × 450 px, ratio 16:9
+         Example:  src="assets/images/course-programming.jpg"
+         =========================================================== -->
+    <div class="card__image" style="aspect-ratio:16/9;">
+      <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80&fit=crop" alt="Code editor open with Python and C++ programming fundamentals" loading="lazy">
+    </div>
+    <div class="card__body" style="padding:2.5rem;">
+      <p class="type-label">Track 01 · Beginner</p>
+      <h3 class="type-h3" style="font-size:1.5rem; margin-bottom:1rem;">Programming Fundamentals</h3>
+      <p class="type-body">This course is the starting point for every student on the platform. You will learn how to think like a programmer — breaking down problems, designing solutions, and writing clean, efficient code. Topics include variables, data types, control flow, functions, object-oriented programming, and debugging techniques. Languages covered include Python and C++, two of the most widely used languages in engineering contexts.</p>
+    </div>
+  </div>
+
+  <!-- COURSE CARD 2 — Data Structures & Algorithms -->
+  <div class="card">
+    <!-- ===========================================================
+         📸 IMAGE SLOT — COURSE CARD 2
+         Recommended: 800 × 450 px, ratio 16:9
+         Example:  src="assets/images/course-dsa.jpg"
+         =========================================================== -->
+    <div class="card__image" style="aspect-ratio:16/9;">
+      <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&q=80&fit=crop" alt="Whiteboard covered in algorithm diagrams and data structure visualisations" loading="lazy">
+    </div>
+    <div class="card__body" style="padding:2.5rem;">
+      <p class="type-label">Track 02 · Intermediate</p>
+      <h3 class="type-h3" style="font-size:1.5rem; margin-bottom:1rem;">Data Structures &amp; Algorithms</h3>
+      <p class="type-body">A solid understanding of data structures and algorithms is essential for any software developer or computer engineer. This course dives into arrays, linked lists, stacks, queues, trees, graphs, and hash tables. You will also learn how to analyze algorithm efficiency using Big O notation and implement sorting and searching algorithms. Mastering these concepts will sharpen your problem-solving skills and prepare you for technical interviews and competitive programming.</p>
+    </div>
+  </div>
+
+  <!-- COURSE CARD 3 — Embedded Systems -->
+  <div class="card">
+    <!-- ===========================================================
+         📸 IMAGE SLOT — COURSE CARD 3
+         Recommended: 800 × 450 px, ratio 16:9
+         Example:  src="assets/images/course-embedded.jpg"
+         =========================================================== -->
+    <div class="card__image" style="aspect-ratio:16/9;">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80&fit=crop" alt="Close-up of a circuit board and microcontroller for embedded systems" loading="lazy">
+    </div>
+    <div class="card__body" style="padding:2.5rem;">
+      <p class="type-label">Track 03 · Intermediate</p>
+      <h3 class="type-h3" style="font-size:1.5rem; margin-bottom:1rem;">Embedded Systems</h3>
+      <p class="type-body">Embedded systems are at the heart of modern technology — from smart appliances to medical devices and industrial machinery. In this course, you will learn how to program microcontrollers, interface with sensors and actuators, manage low-level memory, and write firmware for real-time applications. The course uses popular platforms such as Arduino and STM32, giving you direct, hands-on experience with hardware programming.</p>
+    </div>
+  </div>
+
+  <!-- COURSE CARD 4 — Computer Networks -->
+  <div class="card">
+    <!-- ===========================================================
+         📸 IMAGE SLOT — COURSE CARD 4
+         Recommended: 800 × 450 px, ratio 16:9
+         Example:  src="assets/images/course-networks.jpg"
+         =========================================================== -->
+    <div class="card__image" style="aspect-ratio:16/9;">
+      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80&fit=crop" alt="Server rack and network cables inside a data centre" loading="lazy">
+    </div>
+    <div class="card__body" style="padding:2.5rem;">
+      <p class="type-label">Track 04 · Intermediate</p>
+      <h3 class="type-h3" style="font-size:1.5rem; margin-bottom:1rem;">Computer Networks</h3>
+      <p class="type-body">This course explores how data is transmitted across the internet and internal networks. You will study the OSI model, TCP/IP protocols, DNS, HTTP, routing algorithms, and network security fundamentals. By the end of this course, you will understand how the internet works at a deep level, and you will be able to design basic network architectures, troubleshoot connectivity issues, and appreciate the security challenges facing modern networked systems.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- FEATURED COURSE — SPLIT (Artificial Intelligence) -->
+<div class="split" data-reveal>
+  <!-- ===========================================================
+       📸 IMAGE SLOT — FEATURED COURSE (left)
+       Recommended: tall image, min 900 × 600 px
+       Example:  src="assets/images/course-ai.jpg"
+       =========================================================== -->
+  <div class="split__image">
+    <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80&fit=crop" alt="Abstract neural network visualisation representing artificial intelligence" loading="lazy">
+  </div>
+  <div class="split__text">
+    <p class="type-label">Track 05 · Advanced</p>
+    <h2 class="type-h2">Artificial Intelligence</h2>
+    <p class="type-body-lg">Artificial Intelligence is transforming every industry, and computer engineers are at the forefront of that transformation. This course introduces students to the core concepts of AI, including machine learning, neural networks, natural language processing, and computer vision.</p>
+    <p class="type-body">You will implement algorithms using Python and popular libraries such as TensorFlow and scikit-learn. Practical projects will give you hands-on experience building models that solve real problems.</p>
+    <div class="btn-row mt-md"><a href="projects.html" class="btn btn--arrow">See Projects</a></div>
+  </div>
+</div>
+
+<!-- WHAT'S INCLUDED — 4 cards -->
+<section style="padding:5rem 0 2rem; background:var(--color-white);">
+  <div class="container">
+    <p class="type-label" data-reveal style="margin-bottom:1rem;">What Every Course Includes</p>
+    <h2 class="type-h1" data-reveal>Everything included in every track.</h2>
+  </div>
+</section>
+<div class="card-grid card-grid--4" data-reveal>
+  <div class="card"><div class="card__body" style="padding:2.5rem 2rem;"><span style="font-size:2rem;display:block;margin-bottom:1rem;">📝</span><h3 class="type-h3">Comprehensive Notes</h3><p class="type-body">Detailed, well-structured written notes covering all key concepts for each module. These are written in plain language and designed to be easy to review and reference.</p></div></div>
+  <div class="card"><div class="card__body" style="padding:2.5rem 2rem;"><span style="font-size:2rem;display:block;margin-bottom:1rem;">💻</span><h3 class="type-h3">Example Code</h3><p class="type-body">Every concept is supported by clean, annotated code examples that you can read, run, and experiment with. Learning by doing is core to our philosophy.</p></div></div>
+  <div class="card"><div class="card__body" style="padding:2.5rem 2rem;"><span style="font-size:2rem;display:block;margin-bottom:1rem;">🏋️</span><h3 class="type-h3">Practice Exercises</h3><p class="type-body">Reinforce your understanding through targeted exercises at the end of each lesson. These range from simple recall questions to challenging coding problems.</p></div></div>
+  <div class="card"><div class="card__body" style="padding:2.5rem 2rem;"><span style="font-size:2rem;display:block;margin-bottom:1rem;">🔗</span><h3 class="type-h3">Recommended Resources</h3><p class="type-body">We point you to the best textbooks, video lectures, documentation, and online communities to supplement your learning and help you go deeper.</p></div></div>
+</div>
+
+<div class="pull-quote" data-reveal>
+  <blockquote>"We believe that mastery comes from consistency, clarity, and hands-on practice, and every course reflects that philosophy."</blockquote>
+  <cite>NESAC CSC Hub — Structured Learning Paths</cite>
+</div>
+
+<footer>
+  <div class="footer__top">
+    <div class="footer__brand"><div class="footer-logo-mark">NESAC</div><p>Comprehensive course catalog carefully designed to guide students through the vast and exciting world of computer engineering.</p></div>
+    <div class="footer__col"><h4>Platform</h4><ul><li><a href="courses.html">Courses</a></li><li><a href="resources.html">Resources</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+    <div class="footer__col"><h4>Community</h4><ul><li><a href="community.html">Forums</a></li><li><a href="community.html">Q&amp;A</a></li><li><a href="community.html">Study Groups</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="footer__col"><h4>Schools</h4><ul><li><a href="#">ENSPY / NASEY</a></li><li><a href="#">FET · COT</a></li><li><a href="#">ENSPD · IUT</a></li><li><a href="#">NAHPI &amp; Others</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><p>© 2025 NESAC CSC Hub — All rights reserved.</p><p><a href="contact.html">Contact Us</a></p></div>
+  <div class="footer__credit">Platform designed and built by <strong>NESAC — National Engineering Students Association of Cameroon</strong></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

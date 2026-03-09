@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✏️ PAGE TITLE — update for each page -->
+  <title>Home — NESAC CSC Hub</title>
+
+  <meta name="description" content="NESAC CSC Hub is a community for computer engineering students and professionals to learn, share, and collaborate on projects, courses, and resources.">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon placeholder — replace href with actual favicon path -->
+  <!-- <link rel="icon" href="assets/images/favicon.ico"> -->
+</head>
+<body>
+<!--// Navbar-->
+<!-- ============================================================
+     NAVBAR
+     Active page: add class="active" to the matching <a> tag
+     ============================================================ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <!-- ✏️ LOGO TEXT — replace "NESAC" with your wordmark if needed -->
+  <a href="index.html" class="nav-logo" aria-label="NESAC Home">
+    <span class="logo-mark">NESAC</span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="community.html">Community</a></li>
+  </ul>
+
+  <!-- Mobile hamburger button -->
+  <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Full-screen mobile overlay menu -->
+<div class="nav-overlay" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <ul class="nav-overlay__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="community.html">Community</a></li>
+  </ul>
+  <div class="nav-overlay__meta">
+    <!-- ✏️ OVERLAY META LINKS — secondary CTAs shown in mobile menu -->
+    <a href="community.html">Join the Community</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+<!-- /NAVBAR -->
+
+<!-- ============================================================
+     HERO SECTION
+     Full-viewport height, image background, text overlay
+     ============================================================ -->
+<section class="hero">
+
+  <!-- ===========================================================
+       📸 IMAGE SLOT — HERO BACKGROUND
+       Replace the <img> src with your actual hero image path.
+       Recommended: 1600 × 900 px minimum, landscape orientation.
+       Example:  src="assets/images/hero-home.jpg"
+       =========================================================== -->
+  https://th.bing.com/th/id/OIP.2VKhwNPgeyjkDOWkKlVzqAHaDG?w=308&h=146&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3
+  <div class="hero__image">
+    <img
+      src="pexels-goumbik-574069.jpg"
+      alt="[ALT TEXT — describe the hero image for screen readers]"
+      loading="eager"
+    >
+  </div>
+
+  <div class="hero__overlay"></div>
+
+  <div class="hero__content container">
+    <!-- ✏️ HERO EYEBROW — short label above main heading -->
+    <span class="type-label">Computer Engineering Student Platform · Cameroon</span>
+
+    <!-- ✏️ HERO HEADING — main display title (Playfair Display) -->
+    <h2 class="type-display">
+      Welcome to our Computer Engineering Student Hub
+    </h2>
+
+    <!-- ✏️ HERO TAGLINE — one or two sentences below heading -->
+    <p class="hero__tagline">
+      A dynamic platform built to inspire, educate, and connect
+    </p>
+
+    <!-- ✏️ HERO CTA BUTTONS -->
+    <div class="btn-row" style="margin-top:2rem;">
+      <a href="courses.html" class="btn btn--arrow">Explore Courses</a>
+      <a href="about.html"   class="btn btn--ghost">Learn More</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll-indicator" aria-hidden="true">Scroll</div>
+</section>
+<!-- /HERO -->
+
+
+<!-- ============================================================
+     SCHOOLS STRIP
+     Logos or names of partner institutions
+     ✏️ Replace each tag with actual school names / logos
+     ============================================================ -->
+<div class="schools-strip" aria-label="Partner schools">
+  <span class="schools-strip__tag">ENSPY / NASEY</span>
+  <span class="schools-strip__tag">FET</span>
+  <span class="schools-strip__tag">COT</span>
+  <span class="schools-strip__tag">ENSPD</span>
+  <span class="schools-strip__tag">IUT</span>
+  <span class="schools-strip__tag">NAHPI</span>
+  <span class="schools-strip__tag">All Engineering Schools</span>
+</div>
+
+
+<!-- ============================================================
+     SECTION: INTRO TEXT
+     Large editorial text block — the "who we are in two paras"
+     ============================================================ -->
+<section class="section-intro section-intro--white">
+  <div class="container--sm">
+
+    <!-- ✏️ EYEBROW LABEL -->
+    <div class="section-intro__eyebrow">
+      <span class="type-label">What This Platform Is</span>
+    </div>
+
+    <!-- ✏️ ITALIC PULL SENTENCE — Playfair Display italic, large -->
+    <p class="type-display-italic" data-reveal>
+      NESAC – A team, out to Empower the Next Generation of Computer Engineers.
+    </p>
+
+    <!-- ✏️ TWO-COLUMN BODY COPY -->
+    <div class="section-intro__body-grid" data-reveal data-delay="2">
+      <p class="type-body-lg">
+        Whether you’re just starting your journey or advancing toward specialization, this site offers everything you need: tutorials, projects, research materials, and career guidance
+      </p>
+      <div>
+        <p class="type-body">
+          This is your gateway to a thriving academic and professional community of aspiring engineers who are ambitious and push one another to reach their full potential in their respective fields of work as per the various engineering departments
+        </p>
+        <!-- ✏️ INLINE LINK — replace href and text -->
+        <a href="about.html" class="inline-link type-label" style="margin-top:1.5rem; display:inline-block;">
+          Learn more about us
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- /INTRO TEXT -->
+
+
+<!-- ============================================================
+     STATS ROW
+     ✏️ Replace numbers and labels with real data
+     ============================================================ -->
+<div class="stats-row" data-reveal>
+  <div class="stats-row__cell">
+    <span class="stats-row__number">5+</span>
+    <span class="type-label">Core Departments</span>
+  </div>
+  <div class="stats-row__cell">
+    <span class="stats-row__number">50+</span>
+    <span class="type-label">Team Members</span>
+  </div>
+  <div class="stats-row__cell">
+    <span class="stats-row__number">200+</span>
+    <span class="type-label">Community Members</span>
+  </div>
+  <!--<div class="stats-row__cell">
+    <span class="stats-row__number">6+</span>
+    <span class="type-label">Adipiscing</span>
+  </div>-->
+</div>
+
+
+<!-- ============================================================
+     CARD GRID — 4 FEATURE CARDS
+     ✏️ Replace card labels, headings, body text
+     📸 Replace each card__image placeholder with an <img> tag
+     ============================================================ -->
+<div class="section-grid-header container" data-reveal>
+  <!-- ✏️ SECTION HEADING -->
+  <h2 class="type-h1">Learn with Us</h2>
+  <!-- ✏️ SECTION LINK -->
+  <a href="courses.html" class="section-grid-header__link">All offerings →</a>
+</div>
+<div class="card-grid card-grid--4" data-reveal>
+
+  <!-- CARD 1 -->
+  <div class="card">
+    <!-- ===========================================================
+         📸 IMAGE SLOT — CARD 1 THUMBNAIL
+         Replace placeholder div with: <img src="assets/images/card-1.jpg" alt="…">
+         Recommended: 600 × 450 px, aspect ratio 4:3
+         =========================================================== -->
+    <div class="card__image">
+      <img
+        src="data:image/webp;base64,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"
+        alt="[ALT TEXT — Card 1 image description]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <!-- ✏️ CARD LABEL / CATEGORY -->
+      <p class="type-label">01 — JavaScript</p>
+      <!-- ✏️ CARD HEADING -->
+      <h3 class="type-h3">Language of the Web</h3>
+      <!-- ✏️ CARD BODY TEXT -->
+      <p class="type-body">Learn it once and build websites, apps, even games. Every company needs it, and it's not going anywhere.</p>
+    </div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — CARD 2 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="data:image/webp;base64,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"
+        alt="[ALT TEXT — Card 2 image description]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">02 — Python</p>
+      <h3 class="type-h3">Your first ticket to the coding world</h3>
+      <p class="type-body">It's simple, readable, and crazy powerful. From web dev to AI, this one language can take you anywhere.</p>
+    </div>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — CARD 3 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="https://th.bing.com/th/id/OIP.ANJxOXshITZKAxCOWniA6wHaE7?w=227&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+        alt="[ALT TEXT — Card 3 image description]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">03 — C/C++</p>
+      <h3 class="type-h3">The Foundation of it all</h3>
+      <p class="type-body">Master this and you'll understand how computers actually work. It's tough, but FAANG interviews and system programming wait at the end.</p>
+    </div>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — CARD 4 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="https://www.bing.com/th/id/OIP.LXcIBJ7WND-mnLl1liPo0gHaEK?w=295&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+        alt="[ALT TEXT — Card 4 image description]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">04 — SQL</p>
+      <h3 class="type-h3">The quiet earner</h3>
+      <p class="type-body">Not glamorous, but absolutely essential. Every app has a database, and companies will pay you well to talk to it.</p>
+    </div>
+  </div>
+
+</div>
+<!-- /CARD GRID -->
+
+
+<!-- ============================================================
+     SPLIT SECTION A — image LEFT, text RIGHT
+     ============================================================ -->
+<div class="split" data-reveal>
+
+  <!-- ===========================================================
+       📸 IMAGE SLOT — SPLIT A (left side)
+       Replace <img> src with your actual image path.
+       Recommended: tall/portrait image, min 900 × 600 px
+       Example:  src="assets/images/split-a.jpg"
+       =========================================================== -->
+  <div class="split__image">
+    <img
+      src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=900&q=80&fit=crop"
+      alt="[ALT TEXT — Split section A image description]"
+      loading="lazy"
+    >
+  </div>
+
+  <div class="split__text">
+    <!-- ✏️ SPLIT A — text content -->
+    <p class="type-label"> Call to action </p>
+    <h2 class="type-h2">Ready to start your coding journey ?</h2>
+    <p class="type-body-lg">
+      All courses are free and built by frshers, for freshers. No boring lectures, just peer learning that actually helps.</p>
+    <p class="type-body">
+      Pick a language and jon our next batch.
+    </p>
+    <div class="btn-row mt-md">
+      <a href="courses.html" class="btn btn--arrow">Join a Course</a>
+    </div>
+  </div>
+
+</div>
+<!-- /SPLIT A -->
+
+
+<!-- ============================================================
+     SPLIT SECTION B — image RIGHT, text LEFT
+     ============================================================ -->
+<div class="split split--reverse" data-reveal>
+
+  <!-- ===========================================================
+       📸 IMAGE SLOT — SPLIT B (right side)
+       Recommended: tall/portrait image, min 900 × 600 px
+       Example:  src="assets/images/split-b.jpg"
+       =========================================================== -->
+  <div class="split__image">
+    <img
+      src="pexels-goumbik-574077.jpg"
+      alt="[ALT TEXT — Split section B image description]"
+      loading="lazy"
+    >
+  </div>
+
+  <div class="split__text">
+    <!-- ✏️ SPLIT B — text content -->
+    <p class="type-label">Community Contributors</p>
+    <h2 class="type-h2">Built by students, shared with you.</h2>
+    <p class="type-body-lg">
+      Notes, Project reports from seniors, cheat sheets, and stuff we wish we had as freshers.
+      We asked around, dug through old drives, and convinced seniors to share what they usually gatekeep. Now it's all here — free, no strings attached.
+    </p>
+    <p class="type-body">
+      Because that's how it should be. Students helping students.
+    </p>
+    <div class="btn-row mt-md">
+      <a href="resources.html" class="btn btn--outline btn--arrow">Explore Resources</a>
+    </div>
+  </div>
+
+</div>
+<!-- /SPLIT B -->
+
+
+<!-- ============================================================
+     PULL QUOTE
+     ✏️ Replace blockquote text and cite attribution
+     ============================================================ -->
+<div class="pull-quote" data-reveal>
+  <blockquote>
+    "The only thing standing between you and your goals is the courage to start. You don't have to be perfect — you just have to begin. Show up, stay consistent, and trust that every small step is taking you somewhere."
+  </blockquote>
+  <cite>— NESAC</cite>
+</div>
+
+
+<!-- ============================================================
+     BLOG PREVIEW — 3 cards
+     ✏️ Replace card content with real article data
+     📸 Replace each blog__img src with real article thumbnails
+     ============================================================ -->
+<div class="section-grid-header container" data-reveal>
+  <h2 class="type-h1">Coming soon ...</h2>
+  <a href="blog.html" class="section-grid-header__link">All articles →</a>
+</div>
+
+<div class="card-grid card-grid--3" data-reveal>
+
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — BLOG CARD 1 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80&fit=crop"
+        alt="[ALT TEXT — Blog article 1 thumbnail]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">Freshman Category</p>
+      <h3 class="type-h3">Your Story Could Go Here</h3>
+      <p class="type-body">Struggling with something? Figured out a tough subject? Got advice for the next batch? Write about it and we'll feature you.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — BLOG CARD 2 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80&fit=crop"
+        alt="[ALT TEXT — Blog article 2 thumbnail]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">Projects Category</p>
+      <h3 class="type-h3">Building something cool ?</h3>
+      <p class="type-body">Working on a project — big or small? Share your journey, the mistakes, the wins, and help others learn from your experience.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <!-- 📸 IMAGE SLOT — BLOG CARD 3 THUMBNAIL -->
+    <div class="card__image">
+      <img
+        src="OIP.webp"
+        alt="[ALT TEXT — Blog article 3 thumbnail]"
+        loading="lazy"
+      >
+    </div>
+    <div class="card__body">
+      <p class="type-label">Senior category</p>
+      <h3 class="type-h3">Seniors, Spill Your Secrets</h3>
+      <p class="type-body">Got tips on placements, internships, or just surviving college? Drop your wisdom here and become someone's favorite senior.</p>
+    </div>
+  </div>
+
+</div>
+<!-- /BLOG PREVIEW -->
+
+
+<!-- ============================================================
+     FOOTER
+     ✏️ Replace all links, column headings, and tagline text
+     ============================================================ -->
+<footer>
+  <div class="footer__top">
+
+    <!-- Brand column -->
+    <div class="footer__brand">
+      <!-- Logo mark repeated in footer -->
+      <div class="footer-logo-mark">NESAC</div>
+      <!-- ✏️ FOOTER TAGLINE -->
+      <p>"NESAC is where engineering students come to figure it out — together. No gatekeeping, just peers helping peers."</p>
+    </div>
+
+    <!-- ✏️ NAV COLUMN 1 -->
+    <div class="footer__col">
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- ✏️ NAV COLUMN 2 -->
+    <div class="footer__col">
+      <h4>Community</h4>
+      <ul>
+        <li><a href="community.html">Forums</a></li>
+        <li><a href="community.html">Q&amp;A</a></li>
+        <li><a href="community.html">Study Groups</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+
+    <!-- ✏️ NAV COLUMN 3 -->
+    <div class="footer__col">
+      <h4>Schools</h4>
+      <ul>
+        <li><a href="#">ENSPY / NASEY</a></li>
+        <li><a href="#">FET · COT</a></li>
+        <li><a href="#">ENSPD · IUT</a></li>
+        <li><a href="#">NAHPI &amp; Others</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <!-- ✏️ COPYRIGHT TEXT -->
+    <p>© 2025 NESAC CSC Hub — All rights reserved.</p>
+    <p><a href="contact.html">Contact Us</a></p>
+  </div>
+
+  <!-- NESAC builder credit — keep this line per project agreement -->
+  <div class="footer__credit">
+    Platform designed and built by <strong>NESAC — National Engineering Students Association of Cameroon</strong>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+<script src="script.js"></script>
+</body>
+</html>
